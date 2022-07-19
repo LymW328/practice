@@ -1,0 +1,11 @@
+# def fn_d(n):
+  
+  
+n = input()  
+res = 0
+n_1 = list(n)
+for i in range(len(n_1)):
+    res += int(n_1[i])
+
+print(res + int(n))
+
